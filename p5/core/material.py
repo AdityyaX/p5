@@ -1,8 +1,10 @@
-from typing import Any
-from . import p5, fill
-from ..sketch.util import ensure_p3d, scale_tuple
-import numpy as np
 from dataclasses import dataclass
+from typing import Any
+
+import numpy as np
+
+from ..sketch.util import ensure_p3d, scale_tuple
+from . import fill, p5
 
 __all__ = [
     "normal_material",

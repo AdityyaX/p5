@@ -1,6 +1,7 @@
-from . import p5
-from ..sketch.util import ensure_p3d, scale_tuple
 import numpy as np
+
+from ..sketch.util import ensure_p3d, scale_tuple
+from . import p5
 
 __all__ = [
     "lights",

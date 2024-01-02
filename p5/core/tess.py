@@ -1,15 +1,15 @@
+import numpy as np
+from OpenGL.GL import GL_LINE_LOOP, GL_TRIANGLE_FAN, GL_TRIANGLE_STRIP, GL_TRIANGLES
 from OpenGL.GLU import (
-    gluNewTess,
-    gluTessCallback,
-    GLU_TESS_VERTEX,
     GLU_TESS_BEGIN,
+    GLU_TESS_COMBINE,
     GLU_TESS_END,
     GLU_TESS_ERROR,
+    GLU_TESS_VERTEX,
     gluErrorString,
-    GLU_TESS_COMBINE,
+    gluNewTess,
+    gluTessCallback,
 )
-from OpenGL.GL import GL_TRIANGLE_FAN, GL_TRIANGLE_STRIP, GL_TRIANGLES, GL_LINE_LOOP
-import numpy as np
 
 
 class Tessellator:

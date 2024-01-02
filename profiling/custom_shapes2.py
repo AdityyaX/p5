@@ -1,4 +1,19 @@
-from p5 import *
+from p5 import (
+    CLOSE,
+    LINES,
+    QUAD_STRIP,
+    QUADS,
+    TRIANGLE_FAN,
+    TRIANGLE_STRIP,
+    TRIANGLES,
+    begin_shape,
+    end_shape,
+    fill,
+    no_fill,
+    run,
+    size,
+    vertex,
+)
 
 
 def setup():

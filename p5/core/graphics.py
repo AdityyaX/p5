@@ -1,6 +1,6 @@
 from abc import ABC
-from . import constants
-from . import p5
+
+from . import constants, p5
 
 __all__ = ["create_graphics"]
 

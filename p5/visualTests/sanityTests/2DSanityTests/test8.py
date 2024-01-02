@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, height, line, no_loop, redraw, size, stroke, width
 
 y = 0
 

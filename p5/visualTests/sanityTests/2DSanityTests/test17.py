@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import Color, height, line, no_fill, no_loop, remap, size, width
 
 Y_AXIS = 1
 X_AXIS = 2

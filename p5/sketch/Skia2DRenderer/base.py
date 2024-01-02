@@ -1,9 +1,10 @@
-from p5.core import p5
+import copy
 
 import skia
 from OpenGL import GL
 
-import copy
+from p5.core import p5
+
 from ..events import handler_names
 from .handlers import *
 from .util import *

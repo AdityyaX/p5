@@ -18,15 +18,12 @@
 
 import builtins
 
+from . import p5
 from .color import Color
-from .image import image
-from .image import image_mode
-from .image import PImage
+from .constants import BEVEL, MITER, PROJECT, ROUND, SQUARE
+from .image import PImage, image, image_mode
 from .structure import push_style
 from .transforms import push_matrix
-from .constants import SQUARE, PROJECT, ROUND, MITER, BEVEL
-
-from . import p5
 
 __all__ = [
     "background",

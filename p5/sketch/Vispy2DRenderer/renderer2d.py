@@ -25,33 +25,30 @@ import urllib
 from contextlib import contextmanager
 
 import numpy as np
-from PIL import ImageFont, ImageChops, ImageFilter, ImageDraw, Image
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 from vispy import gloo
-from vispy.gloo import Program
-from vispy.gloo import Texture2D
-from vispy.gloo import VertexBuffer
+from vispy.gloo import Program, Texture2D, VertexBuffer
 
 from p5.core import p5
 from p5.core.constants import (
-    SType,
-    LEFT,
-    TOP,
-    RIGHT,
     BOTTOM,
     CENTER,
-    CORNERS,
     CORNER,
+    CORNERS,
+    LEFT,
     RGB,
+    RIGHT,
+    TOP,
+    SType,
 )
 from p5.core.image import image, image_mode
 from p5.core.structure import push_style
 from p5.pmath import matrix
+
 from .image import VispyPImage
-from .openglrenderer import OpenGLRenderer, get_render_primitives, COLOR_WHITE
-from .shaders2d import src_default, src_fbuffer
-from .shaders2d import src_line
-from .shaders2d import src_texture
-from .shape import PShape, Arc
+from .openglrenderer import COLOR_WHITE, OpenGLRenderer, get_render_primitives
+from .shaders2d import src_default, src_fbuffer, src_line, src_texture
+from .shape import Arc, PShape
 
 
 class VispyRenderer2D(OpenGLRenderer):

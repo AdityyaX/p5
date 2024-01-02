@@ -1,17 +1,17 @@
 # This file adds Processing API compatibility
 
+from ..p5types import FloatOrNTuple
 from .curves import (
     bezier_detail,
     bezier_point,
     bezier_tangent,
-    curve_point,
-    curve_tightness,
     curve_detail,
+    curve_point,
     curve_tangent,
+    curve_tightness,
     quadratic_point,
 )
-from .rand import noise_detail, noise_seed, random_uniform, random_seed, random_gaussian
-from ..p5types import FloatOrNTuple
+from .rand import noise_detail, noise_seed, random_gaussian, random_seed, random_uniform
 
 
 def bezierDetail(detailValue: int):

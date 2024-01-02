@@ -16,36 +16,33 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-from numpy.linalg import inv
+import builtins
+import math
+from contextlib import contextmanager
 from dataclasses import dataclass
 from sys import stderr
+
 import numpy as np
-import math
-
-import builtins
-
+from numpy.linalg import inv
 from vispy import gloo
-from vispy.gloo import Texture2D, Program
-
-from contextlib import contextmanager
-
-from p5.core.constants import Z_EPSILON
-from p5.core.geometry import Geometry
-from ..Vispy2DRenderer.shape import PShape
-from ..Vispy2DRenderer.openglrenderer import Style2D
-
-from p5.pmath.matrix import translation_matrix
-from p5.pmath import matrix
-from ..Vispy2DRenderer.openglrenderer import (
-    OpenGLRenderer,
-    get_render_primitives,
-    to_3x3,
-    COLOR_WHITE,
-)
-from .shaders3d import src_default, src_fbuffer, src_normal, src_phong
-from p5.core.material import BasicMaterial, NormalMaterial, BlinnPhongMaterial
+from vispy.gloo import Program, Texture2D
 
 from p5.core import p5
+from p5.core.constants import Z_EPSILON
+from p5.core.geometry import Geometry
+from p5.core.material import BasicMaterial, BlinnPhongMaterial, NormalMaterial
+from p5.pmath import matrix
+from p5.pmath.matrix import translation_matrix
+
+from ..Vispy2DRenderer.openglrenderer import (
+    COLOR_WHITE,
+    OpenGLRenderer,
+    Style2D,
+    get_render_primitives,
+    to_3x3,
+)
+from ..Vispy2DRenderer.shape import PShape
+from .shaders3d import src_default, src_fbuffer, src_normal, src_phong
 
 
 class GlslList:

@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import circle, ellipse, line, quad, rect, run, size, square, triangle
 
 
 def setup():

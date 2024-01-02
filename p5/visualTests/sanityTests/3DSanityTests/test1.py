@@ -1,4 +1,19 @@
-from p5 import *
+from p5 import (
+    background,
+    blinn_phong_material,
+    box,
+    fill,
+    lights,
+    no_fill,
+    no_stroke,
+    push_matrix,
+    rotate_x,
+    rotate_y,
+    size,
+    sphere,
+    stroke,
+    translate,
+)
 
 
 def setup():

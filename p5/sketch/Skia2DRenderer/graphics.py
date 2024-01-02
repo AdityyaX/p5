@@ -1,10 +1,10 @@
 import skia
 
-from p5.core.graphics import Graphics
-from . import renderer2d
-from p5.core import p5
-
 import p5 as p5_lib
+from p5.core import p5
+from p5.core.graphics import Graphics
+
+from . import renderer2d
 
 
 def setup_default_renderer_dec(func):

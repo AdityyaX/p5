@@ -1,4 +1,19 @@
-from p5 import *
+from p5 import (
+    TRIANGLE_STRIP,
+    background,
+    begin_shape,
+    cos,
+    end_shape,
+    height,
+    radians,
+    run,
+    sin,
+    size,
+    vertex,
+    width,
+)
+
+# Your code using the imported functions and constants...
 
 x = 0
 y = 0

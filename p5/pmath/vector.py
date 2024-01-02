@@ -16,10 +16,12 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 from __future__ import annotations
-from typing import Optional, NamedTuple
+
+from typing import NamedTuple, Optional
+
 import numpy as np
-from numpy.typing import NDArray
 from numpy.random import random
+from numpy.typing import NDArray
 
 __all__ = ["Vector", "Point"]
 

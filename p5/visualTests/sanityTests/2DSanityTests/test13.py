@@ -1,4 +1,18 @@
-from p5 import *
+from p5 import (
+    PI,
+    background,
+    height,
+    line,
+    mouse_x,
+    mouse_y,
+    push_matrix,
+    rotate,
+    size,
+    stroke,
+    stroke_weight,
+    translate,
+    width,
+)
 
 x = 0
 y = 0

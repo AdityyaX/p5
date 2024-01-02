@@ -15,18 +15,18 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
-from .structure import *
+from .api import *
+from .attribs import *
+from .color import *
+from .constants import *
+from .font import *
+from .graphics import *
+from .image import *
+from .light import *
+from .material import *
 from .primitives import *
 from .primitives3d import *
-from .transforms import *
-from .color import *
-from .attribs import *
-from .image import *
-from .font import *
-from .constants import *
-from .vertex import *
+from .structure import *
 from .svg import *
-from .material import *
-from .light import *
-from .api import *
-from .graphics import *
+from .transforms import *
+from .vertex import *

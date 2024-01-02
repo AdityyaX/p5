@@ -17,12 +17,13 @@
 #
 
 import builtins
+import copy
 
 from p5.pmath.vector import Point
+
+from ..pmath import curves
 from . import p5
 from .constants import TESS, SType
-from ..pmath import curves
-import copy
 
 shape_kind = None
 vertices = []  # stores the vertex coordinates

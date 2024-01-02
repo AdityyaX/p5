@@ -1,4 +1,19 @@
-from p5 import *
+from p5 import (
+    PI,
+    Vector,
+    background,
+    fill,
+    mouse_x,
+    mouse_y,
+    no_stroke,
+    push_matrix,
+    remap,
+    rotate,
+    size,
+    stroke,
+    translate,
+    triangle,
+)
 
 
 class Vehicle:

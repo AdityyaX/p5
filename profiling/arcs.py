@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import PI, QUARTER_PI, arc, run, size
 
 
 def setup():

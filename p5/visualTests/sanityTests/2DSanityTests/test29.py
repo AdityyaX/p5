@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, ellipse, fill, frame_count, mouse_x, mouse_y, no_stroke, size
 
 num = 60
 mx = [0] * num

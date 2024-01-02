@@ -1,4 +1,14 @@
-from p5 import *
+from p5 import (
+    background,
+    color_mode,
+    ellipse,
+    fill,
+    height,
+    no_stroke,
+    random_uniform,
+    size,
+    width,
+)
 
 dim = None
 

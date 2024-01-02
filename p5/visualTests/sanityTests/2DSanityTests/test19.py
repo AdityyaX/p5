@@ -1,4 +1,16 @@
-from p5 import *
+from p5 import (
+    PI,
+    abs,
+    background,
+    cos,
+    height,
+    line,
+    no_loop,
+    remap,
+    size,
+    stroke,
+    width,
+)
 
 coswave = []
 

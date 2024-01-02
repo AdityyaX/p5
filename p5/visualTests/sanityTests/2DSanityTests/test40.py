@@ -1,6 +1,29 @@
 from random import randrange
+
 import numpy as np
-from p5 import *
+
+from p5 import (
+    PI,
+    TWO_PI,
+    Vector,
+    background,
+    cos,
+    height,
+    line,
+    noise,
+    noise_seed,
+    offset,
+    push_matrix,
+    random_uniform,
+    randrange,
+    remap,
+    sin,
+    size,
+    stroke,
+    translate,
+    triangle,
+    width,
+)
 
 
 class FlowField:

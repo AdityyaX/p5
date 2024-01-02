@@ -1,4 +1,17 @@
-from p5 import *
+from p5 import (
+    PI,
+    background,
+    begin_shape,
+    end_shape,
+    fill,
+    no_loop,
+    rotate_x,
+    rotate_z,
+    run,
+    size,
+    stroke,
+    vertex,
+)
 
 
 def setup():

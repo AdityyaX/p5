@@ -1,4 +1,14 @@
-from p5 import *
+from p5 import (
+    background,
+    color_mode,
+    fill,
+    height,
+    mouse_x,
+    no_stroke,
+    rect,
+    size,
+    stroke,
+)
 
 barWidth = 20
 lastBar = -1

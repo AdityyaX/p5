@@ -20,8 +20,6 @@ from copy import deepcopy
 
 from . import p5
 
-from contextlib import AbstractContextManager
-
 
 class _StyleContext(AbstractContextManager):
     def __exit__(self, exc_type, exc_value, traceback):

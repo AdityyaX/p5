@@ -19,8 +19,7 @@
 import random
 
 from ..pmath import constrain
-from .utils import SINCOS_LENGTH
-from .utils import PRE_COS
+from .utils import PRE_COS, SINCOS_LENGTH
 
 __all__ = [
     # PERLIN NOISE FUNCTIONS

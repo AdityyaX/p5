@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, line, no_loop, point, size, stroke, translate
 
 
 def setup():

@@ -1,4 +1,15 @@
-from p5 import *
+from p5 import (
+    background,
+    fill,
+    height,
+    mouse_x,
+    mouse_y,
+    no_stroke,
+    rect,
+    rect_mode,
+    size,
+    width,
+)
 
 
 def setup():

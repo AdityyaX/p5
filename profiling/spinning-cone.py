@@ -1,4 +1,20 @@
-from p5 import *
+from p5 import (
+    background,
+    blinn_phong_material,
+    cone,
+    frame_count,
+    height,
+    light_specular,
+    mode,
+    mouse_x,
+    mouse_y,
+    point_light,
+    rotate_x,
+    rotate_y,
+    run,
+    size,
+    width,
+)
 
 
 def setup():

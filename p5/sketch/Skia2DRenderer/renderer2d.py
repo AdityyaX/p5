@@ -1,16 +1,17 @@
-import numpy as np
-import skia
 from dataclasses import dataclass
 
+import numpy as np
+import skia
+
 from p5 import p5
-from p5.core.attribs import stroke, fill
-from p5.core.color import Color
 from p5.core import constants
-from p5.core.primitives import point, line
+from p5.core.attribs import fill, stroke
+from p5.core.color import Color
+from p5.core.primitives import line, point
 from p5.pmath.utils import *
 
+from .graphics import SkiaGraphics, create_graphics_helper
 from .image import SkiaPImage
-from .graphics import create_graphics_helper, SkiaGraphics
 
 
 @dataclass

@@ -1,4 +1,5 @@
 import unittest
+
 from p5.core.color import Color
 
 

@@ -22,9 +22,10 @@
 from collections.abc import Iterable
 from functools import wraps
 from typing import Callable, List
-from ..pmath import Point
+
 from ..core import p5
 from ..p5types import FloatOrNTuple
+from ..pmath import Point
 
 __all__ = [
     # BEZIER METHODS

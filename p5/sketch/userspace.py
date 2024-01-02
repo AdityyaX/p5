@@ -17,20 +17,19 @@
 #
 """Userspace functions"""
 
-import __main__
-
-import math
-from typing import Callable, Optional
-import numpy as np
 import builtins
+import math
 import sys
 import time
 from functools import wraps
+from typing import Callable, Optional
 
-from .events import handler_names
+import __main__
+import numpy as np
 
 from ..core import p5
 from ..pmath import matrix
+from .events import handler_names
 
 __all__ = [
     "no_loop",
@@ -194,8 +193,9 @@ def run(
         import vispy
 
         vispy.use("glfw")
-        from p5.sketch.Vispy2DRenderer.base import VispySketch
         from vispy import app
+
+        from p5.sketch.Vispy2DRenderer.base import VispySketch
 
         builtins.current_renderer = "vispy"
 

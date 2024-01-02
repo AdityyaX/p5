@@ -16,12 +16,13 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-from contextlib import AbstractContextManager
-import numpy as np
-import math
 import builtins
-from ..pmath import matrix
+import math
+from contextlib import AbstractContextManager
 
+import numpy as np
+
+from ..pmath import matrix
 from . import p5
 
 __all__ = [

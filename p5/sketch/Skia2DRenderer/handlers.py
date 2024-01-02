@@ -5,13 +5,13 @@ This file contains the handlers needed for glfw event handling
 
 import builtins
 import platform
-import glfw
-from p5.core import p5
-from p5.sketch.events import KeyEvent, MouseEvent
-
 from dataclasses import dataclass
 from time import time
 
+import glfw
+
+from p5.core import p5
+from p5.sketch.events import KeyEvent, MouseEvent
 from p5.util import keys
 
 BUTTONMAP = {

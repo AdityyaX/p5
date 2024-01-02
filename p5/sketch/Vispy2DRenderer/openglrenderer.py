@@ -1,22 +1,22 @@
 from abc import ABC
-import numpy as np
-
-from p5.core import p5
-from p5.core.constants import SType, ROUND, MITER, LEFT, TOP, CORNER, CENTER, RGB
-from p5.pmath import matrix
-from .shape import Arc, PShape
-
 from dataclasses import dataclass
-from vispy.gloo import Program, VertexBuffer, FrameBuffer, IndexBuffer
+
+import numpy as np
 from OpenGL.GLU import (
-    gluTessBeginPolygon,
     gluTessBeginContour,
-    gluTessEndPolygon,
+    gluTessBeginPolygon,
     gluTessEndContour,
+    gluTessEndPolygon,
     gluTessVertex,
 )
-
 from PIL import ImageFont
+from vispy.gloo import FrameBuffer, IndexBuffer, Program, VertexBuffer
+
+from p5.core import p5
+from p5.core.constants import CENTER, CORNER, LEFT, MITER, RGB, ROUND, TOP, SType
+from p5.pmath import matrix
+
+from .shape import Arc, PShape
 
 # Useful constants
 COLOR_WHITE = (1, 1, 1, 1)

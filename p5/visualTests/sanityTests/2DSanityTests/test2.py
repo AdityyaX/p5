@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import ellipse, exit, fill, frame_count, height, no_stroke, size, width
 
 MAX_FRAMES = 30
 

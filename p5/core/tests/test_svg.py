@@ -1,9 +1,10 @@
 import unittest
+import xml.etree.ElementTree as etree
+
 import numpy as np
 
-import xml.etree.ElementTree as etree
-from p5.core.svg import get_style, parse_rect, parse_line
 from p5.core.color import Color
+from p5.core.svg import get_style, parse_line, parse_rect
 
 svg = '<?xml version="1.0" encoding="utf-8"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> \
     <svg width="400px" height="300px" xml:lang="fr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> \

@@ -1,7 +1,23 @@
 # Adapted from
 import cProfile
 import random
-from p5 import *
+
+from p5 import (
+    PI,
+    begin_shape,
+    end_shape,
+    frame_count,
+    height,
+    np,
+    push_matrix,
+    random_uniform,
+    rotate,
+    run,
+    size,
+    translate,
+    vertex,
+    width,
+)
 
 FRAME_MAX = 1000
 

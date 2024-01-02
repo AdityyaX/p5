@@ -16,10 +16,10 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-from .utils import *
-from .vector import *
-from .rand import *
-from .curves import *
-from .time import *
 from . import matrix
 from .api import *
+from .curves import *
+from .rand import *
+from .time import *
+from .utils import *
+from .vector import *

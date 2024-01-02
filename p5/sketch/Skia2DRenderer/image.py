@@ -1,8 +1,9 @@
-from p5.core import constants
-from p5.core import PImage
+import builtins
+
 import numpy as np
 import skia
-import builtins
+
+from p5.core import PImage, constants
 
 
 class SkiaPImage(PImage):

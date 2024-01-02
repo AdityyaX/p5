@@ -1,26 +1,18 @@
+import builtins
 import contextlib
 import functools
-
-import builtins
-
 import io
 import re
 import urllib
 
 import numpy as np
-from PIL import Image
-from PIL import ImageFilter
-from PIL import ImageChops
-from PIL import ImageOps
-from p5.core import p5
+from PIL import Image, ImageChops, ImageFilter, ImageOps
 
-from p5.core import color
+from p5.core import color, constants, p5
+from p5.core.image import PImage
+from p5.core.structure import push_style
 from p5.pmath import constrain
 from p5.pmath.utils import _is_numeric
-from p5.core.structure import push_style
-
-from p5.core import constants
-from p5.core.image import PImage
 
 
 def _ensure_loaded(func):

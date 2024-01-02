@@ -1,5 +1,20 @@
-from p5 import *
 import os
+
+from p5 import (
+    background,
+    fill,
+    load_font,
+    mouse_x,
+    mouse_y,
+    no_fill,
+    size,
+    stroke,
+    stroke_weight,
+    text,
+    text_align,
+    text_font,
+    text_size,
+)
 
 font = None
 

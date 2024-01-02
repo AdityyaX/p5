@@ -1,4 +1,15 @@
-from p5 import *
+from p5 import (
+    background,
+    cos,
+    fill,
+    height,
+    no_stroke,
+    rect,
+    scale,
+    size,
+    translate,
+    width,
+)
 
 a = 0.0
 s = 0.0

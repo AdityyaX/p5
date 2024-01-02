@@ -16,21 +16,15 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-import math
 import builtins
+import math
 from typing import Optional, Tuple, overload
 
-
-from ..pmath import Point
-from ..pmath import curves
-
+from ..pmath import Point, curves
+from ..sketch.Skia2DRenderer.util import mode_adjust, should_draw
 from ..sketch.Vispy2DRenderer.shape import PShape
-from .constants import ROUND, SQUARE, PROJECT
-
 from . import p5
-
-from ..sketch.Skia2DRenderer.util import should_draw, mode_adjust
-
+from .constants import PROJECT, ROUND, SQUARE
 
 __all__ = [
     "point",

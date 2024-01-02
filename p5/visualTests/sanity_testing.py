@@ -1,7 +1,7 @@
 import os
 import shutil
-from subprocess import run, PIPE, TimeoutExpired
 from contextlib import contextmanager
+from subprocess import PIPE, TimeoutExpired, run
 
 dirname = os.path.dirname(os.path.realpath(__file__))
 

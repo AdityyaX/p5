@@ -1,6 +1,7 @@
+import cProfile
 import importlib
 import time
-import cProfile
+
 import p5
 
 filenames = [

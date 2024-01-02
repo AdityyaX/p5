@@ -2,9 +2,9 @@
  * This module defines the p5 methods for working with local storage
 """
 
+import os
 import pathlib
 import pickle
-import os
 
 local_storage_path = os.path.join(pathlib.Path.home(), ".p5pyStorage")
 

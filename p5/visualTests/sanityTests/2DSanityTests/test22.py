@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, ellipse, fill, height, no_stroke, random_uniform, size, width
 
 unit = 40
 count = None

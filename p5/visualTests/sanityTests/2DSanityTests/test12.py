@@ -1,4 +1,17 @@
-from p5 import *
+from p5 import (
+    background,
+    cos,
+    fill,
+    height,
+    no_stroke,
+    random_uniform,
+    rect,
+    rotate,
+    second,
+    size,
+    translate,
+    width,
+)
 
 angle = 0.0
 jitter = 0.0

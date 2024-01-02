@@ -16,16 +16,15 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-import xml.etree.ElementTree as etree
 import math
 import re
+import xml.etree.ElementTree as etree
+
 import numpy as np
 
-from . import Color
-from ..sketch.Vispy2DRenderer.shape import PShape
-from . import primitives
-from . import transforms
 from ..pmath import matrix
+from ..sketch.Vispy2DRenderer.shape import PShape
+from . import Color, primitives, transforms
 from .constants import ROUND
 
 default_values = {  # default values of SVG attributes

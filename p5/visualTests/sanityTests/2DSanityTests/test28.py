@@ -1,4 +1,19 @@
-from p5 import *
+from p5 import (
+    abs,
+    background,
+    constrain,
+    ellipse,
+    ellipse_mode,
+    fill,
+    height,
+    mouse_x,
+    mouse_y,
+    no_stroke,
+    rect,
+    rect_mode,
+    size,
+    width,
+)
 
 mx = 0
 my = 0

@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, fill, height, millis, no_stroke, rect, remap, size, width
 
 rectWidth = 0
 

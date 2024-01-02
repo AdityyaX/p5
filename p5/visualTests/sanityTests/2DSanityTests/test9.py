@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, fill, height, no_stroke, rect, size, translate, width
 
 x = 0
 y = 0

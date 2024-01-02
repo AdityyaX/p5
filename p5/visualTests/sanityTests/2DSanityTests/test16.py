@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import Color, background, fill, height, no_stroke, rect, size, width
 
 a = b = c = d = e = None
 

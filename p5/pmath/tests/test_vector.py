@@ -1,8 +1,9 @@
 import unittest
 
 import numpy as np
-from p5.pmath.vector import Vector
+
 from p5.pmath.utils import PI
+from p5.pmath.vector import Vector
 
 a = Vector(2, 3, 4)
 b = Vector(5, 6, 7)

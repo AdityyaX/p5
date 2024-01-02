@@ -16,16 +16,17 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-from .sketch import *
+from .__version__ import (
+    __author__,
+    __copyright__,
+    __description__,
+    __license__,
+    __title__,
+    __url__,
+    __version__,
+)
 from .core import *
-from .pmath import *
-from .io import *
 from .data import *
-
-from .__version__ import __title__
-from .__version__ import __description__
-from .__version__ import __url__
-from .__version__ import __version__
-from .__version__ import __author__
-from .__version__ import __license__
-from .__version__ import __copyright__
+from .io import *
+from .pmath import *
+from .sketch import *

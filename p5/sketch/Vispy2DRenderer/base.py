@@ -25,9 +25,7 @@ from vispy import app
 
 from p5.core import p5
 
-from ..events import KeyEvent
-from ..events import MouseEvent
-from ..events import handler_names
+from ..events import KeyEvent, MouseEvent, handler_names
 
 
 def _dummy(*args, **kwargs):

@@ -1,9 +1,10 @@
+import builtins
 import unittest
 
 import numpy as np
-from p5.core.geometry import Geometry
+
 from p5.core import p5
-import builtins
+from p5.core.geometry import Geometry
 
 builtins.current_renderer = "vispy"
 p5.mode = "P3D"

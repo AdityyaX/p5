@@ -1,7 +1,22 @@
 # Adapted from
 # https://p5.readthedocs.io/en/latest/examples/form/shape%20primitives.html
 import cProfile
-from p5 import *
+
+from p5 import (
+    PI,
+    TWO_PI,
+    arc,
+    background,
+    ellipse,
+    fill,
+    frame_count,
+    no_stroke,
+    quad,
+    rect,
+    run,
+    size,
+    triangle,
+)
 
 FRAME_MAX = 1000
 

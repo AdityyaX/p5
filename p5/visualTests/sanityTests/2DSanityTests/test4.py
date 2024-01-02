@@ -1,4 +1,16 @@
-from p5 import *
+from p5 import (
+    background,
+    exit,
+    frame_count,
+    height,
+    line,
+    no_fill,
+    point,
+    rect,
+    size,
+    stroke,
+    width,
+)
 
 
 def setup():

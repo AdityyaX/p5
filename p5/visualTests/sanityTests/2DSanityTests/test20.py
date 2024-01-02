@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, dist, height, no_loop, point, size, stroke, width
 
 distances = []
 maxDiantance = None

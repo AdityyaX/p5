@@ -1,4 +1,15 @@
-from p5 import *
+from p5 import (
+    Color,
+    background,
+    color_mode,
+    fill,
+    height,
+    no_stroke,
+    ord,
+    rect,
+    size,
+    width,
+)
 
 maxHeight = 40
 minHeight = 20

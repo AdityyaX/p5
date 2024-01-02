@@ -1,4 +1,15 @@
-from p5 import *
+from p5 import (
+    begin_shape,
+    bezier_vertex,
+    curve_vertex,
+    end_shape,
+    fill,
+    no_fill,
+    quadratic_vertex,
+    run,
+    size,
+    vertex,
+)
 
 
 def setup():

@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, fill, mouse_x, mouse_y, rect, rect_mode, size, stroke
 
 bx = 0
 by = 0

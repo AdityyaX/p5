@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import color_mode, fill, height, millis, no_stroke, rect, size, width
 
 scale = 0
 

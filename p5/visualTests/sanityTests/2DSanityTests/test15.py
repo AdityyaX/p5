@@ -1,4 +1,16 @@
-from p5 import *
+from p5 import (
+    background,
+    color_mode,
+    fill,
+    height,
+    mouse_x,
+    mouse_y,
+    no_stroke,
+    rect,
+    size,
+    title,
+    width,
+)
 
 bar_width = 20
 last_bar = None

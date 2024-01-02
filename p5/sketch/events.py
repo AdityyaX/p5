@@ -16,6 +16,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 from __future__ import annotations
+
 import builtins
 from collections import namedtuple
 from enum import IntEnum

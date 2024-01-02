@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import arc, background, fill, no_loop, no_stroke, radians, remap, size
 
 angles = [30, 10, 45, 35, 60, 38, 75, 67]
 

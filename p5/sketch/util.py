@@ -1,8 +1,9 @@
-import pkgutil
-import os
-from typing import Tuple
-from ..core import p5
 import builtins
+import os
+import pkgutil
+from typing import Tuple
+
+from ..core import p5
 
 
 def read_shader(filename: str):

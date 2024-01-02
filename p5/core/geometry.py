@@ -22,10 +22,12 @@
 
 
 import itertools
-from typing import List
-from . import p5
-import numpy as np
 import math
+from typing import List
+
+import numpy as np
+
+from . import p5
 
 
 class Geometry:

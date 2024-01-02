@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import background, ellipse, mouse_x, mouse_y, no_stroke, size
 
 x = 0
 y = 0

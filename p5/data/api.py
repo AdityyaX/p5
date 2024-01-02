@@ -1,6 +1,6 @@
 # This file adds Processing API compatibility to p5py
 
-from .local_storage import get_item, set_item, clear_storage, remove_item
+from .local_storage import clear_storage, get_item, remove_item, set_item
 
 
 def getItem(key):

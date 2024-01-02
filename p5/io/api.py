@@ -1,7 +1,8 @@
 # This file adds Processing API compatibility for p5py
 
 from typing import Dict
-from .http_data import http_post, http_get
+
+from .http_data import http_get, http_post
 from .local_data import load_table
 
 

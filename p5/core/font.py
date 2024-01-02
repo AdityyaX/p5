@@ -16,6 +16,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 from typing import Optional
+
 from . import p5
 
 __all__ = [

@@ -1,4 +1,17 @@
-from p5 import *
+from p5 import (
+    PI,
+    TWO_PI,
+    arc,
+    background,
+    ellipse,
+    fill,
+    no_loop,
+    no_stroke,
+    quad,
+    rect,
+    size,
+    triangle,
+)
 
 
 def setup():

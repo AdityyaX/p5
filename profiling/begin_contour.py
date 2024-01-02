@@ -1,4 +1,15 @@
-from p5 import *
+from p5 import (
+    begin_contour,
+    begin_shape,
+    end_contour,
+    end_shape,
+    no_loop,
+    run,
+    size,
+    stroke,
+    translate,
+    vertex,
+)
 
 
 def setup():

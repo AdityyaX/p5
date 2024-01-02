@@ -2,7 +2,6 @@
 
 from .userspace import no_loop, save_frame
 
-
 """Stop draw() from being continuously called.
 
 By default, the sketch continuously calls `draw()` as long as it

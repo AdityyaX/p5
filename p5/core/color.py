@@ -16,15 +16,14 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 from __future__ import annotations
+
 import colorsys
 import math
 from typing import Optional, Tuple
 
-from ..pmath import lerp
-from ..pmath import constrain
-
-from .constants import colour_codes
+from ..pmath import constrain, lerp
 from . import p5
+from .constants import colour_codes
 
 __all__ = ["color_mode", "Color"]
 

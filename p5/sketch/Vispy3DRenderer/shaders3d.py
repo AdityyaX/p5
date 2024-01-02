@@ -18,6 +18,7 @@
 """Shaders used by the main program"""
 
 from collections import namedtuple
+
 from ..util import read_shader
 
 ShaderSource = namedtuple("ShaderSource", "vert frag")

@@ -2,9 +2,10 @@
 Part of the io library. Includes functions that require **internet** connection.
 """
 
+import json
 from typing import Dict
 from urllib import request
-import json
+
 import requests
 
 # Synchronous

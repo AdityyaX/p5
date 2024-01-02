@@ -16,12 +16,13 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-import math
 import functools
+import math
 from typing import Callable
-from .geometry import Geometry
-from . import p5
+
 from ..pmath import matrix
+from . import p5
+from .geometry import Geometry
 
 # We use these in ellipse tessellation. The algorithm is similar to
 # the one used in Processing and the we compute the number of

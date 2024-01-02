@@ -1,4 +1,17 @@
-from p5 import *
+from p5 import (
+    TWO_PI,
+    background,
+    begin_shape,
+    cos,
+    end_shape,
+    polygon,
+    push_matrix,
+    rotate,
+    sin,
+    size,
+    translate,
+    vertex,
+)
 
 
 def setup():

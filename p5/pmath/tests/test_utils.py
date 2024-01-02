@@ -1,6 +1,6 @@
 import unittest
 
-from p5.pmath.utils import constrain, lerp, remap, normalize, magnitude, distance, sq
+from p5.pmath.utils import constrain, distance, lerp, magnitude, normalize, remap, sq
 
 
 class TestUtils(unittest.TestCase):
